@@ -20,11 +20,11 @@ Open http://0.0.0.0:8000/ in your browser.
 ##Changes Made
 ranker.yml - Tried using LevenshteinRanker instead of MinRanker
 
-encode.yml - Tried using UniversalSentenceEncoder
+encode.yml - Tried using UniversalSentenceEncoder,
+              used distilbert-base-cased
 
 craft.yml - sentence length changed from 6 to 3
 
-Add ingredient and steps tags, recipe as text 
 ##Errors
 While querying on the index:
 
@@ -37,4 +37,3 @@ While running server:
 netstat -ltnp | grep :8000
 
 sudo kill -9 PID
-
